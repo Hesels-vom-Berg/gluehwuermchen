@@ -18,7 +18,30 @@
 
 
 
-<script src="/Team-Dateien/merged-78d4223142d7f5e1588f2d52f4721b05-f0b8a089484d584acaa.gzip" type="text/javascript"></script>
+<script src="Team-Dateien/merged-78d4223142d7f5e1588f2d52f4721b05-f0b8a089484d584acaa.gzip" type="text/javascript"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const trigger = document.getElementById("primary-menu-trigger");
+    const menu = document.getElementById("primary-menu");
+    if (trigger && menu) {
+      trigger.addEventListener("click", function() {
+        menu.classList.toggle("menu-open");
+      });
+    }
+  });
+</script>
+
+<style>
+  #primary-menu.menu-open {
+    display: block !important;
+  }
+  @media (max-width: 991px) {
+    #primary-menu {
+      display: none;
+    }
+  }
+</style>
+
 
 <title>Team</title>    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <!--[if lt IE 9]>
