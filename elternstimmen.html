@@ -35,17 +35,6 @@
     </head>
     
     <body class="stretched no-transition device-lg" style="">
-<script>
-jQuery(document).ready(function($) {
-  $('#primary-menu-trigger').on('click', function(e) {
-    e.preventDefault();
-    $('#primary-menu').stop(true, true).slideToggle(300);
-    $(this).toggleClass('menu-open');
-  });
-});
-</script>
-
-
     <!-- Document Wrapper
     ============================================= -->
     <div id="wrapper" class="clearfix">
@@ -163,7 +152,15 @@ wohl. Unsere Tochter hat bei den Glühwürmchen viel gelernt und sich toll
 
 
 
-
+<script>
+jQuery(document).ready(function($) {
+  $('#primary-menu-trigger').on('click', function(e) {
+    e.preventDefault();
+    $('#primary-menu').stop(true, true).slideToggle(300);
+    $(this).toggleClass('menu-open');
+  });
+});
+</script>
 
 </body></html>
 <!-- Cached page generated 26-05-25 10:19. Expires 26-05-25 22:19 -->
