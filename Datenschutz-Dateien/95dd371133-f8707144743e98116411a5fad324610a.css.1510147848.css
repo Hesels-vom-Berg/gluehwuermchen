@@ -1,1 +1,5 @@
 .csc-space-before-50{margin-top:50px !important;}
+.icon-reorder:before {
+    content: "\f0c9"; /* Beispiel-Code */
+    font-family: 'FontAwesome'; /* oder ein anderer Name */
+}
